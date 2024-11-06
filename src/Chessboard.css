@@ -1,0 +1,78 @@
+.Gameover{
+    height: 100%;
+    width: 100%;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    color: rgba(172, 0, 0, 0.306);
+}
+
+.title{
+    font-size: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.Chessboard {
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Gameover-overlay {
+    position: fixed; /* Make the overlay cover the full screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .Gameover-text {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+  }
+  
+  .Restart-button {
+    padding: 10px 20px;
+    font-size: 1vw;
+    background-color: #21a226; /* Green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .Restart-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .Restart-button-1 {
+    padding: 10px 20px;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    background-color: #21a226; /* Green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20vw;
+  }
+  
+  .Restart-button-1:hover {
+    background-color: #0065057b; /* Darker green on hover */
+  }
+  
+  
